@@ -1,1 +1,137 @@
-test
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:title" content="조규태와 부지윤이 결혼합니다!">
+    <meta property="og:url" content="http://">
+    <meta property="og:image" content="http://">
+    <meta property="og:description" content="2017년 6월 18일 (일) 12:00 / 논현동 보네르하우스">
+    <title>조규태와 부지윤이 결혼합니다!</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/slick.css">
+    <link rel="stylesheet" href="/static/css/slick-theme.css">
+    <script src="/static/jslib/jquery-3.2.1.min.js"></script>
+    <script src="/static/jslib/slick.min.js"></script>
+    <script src="/static/jslib/scrollreveal.min.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <div class="clear_g calendar_yearmonth">
+            <strong class="f_l">2017</strong>
+            <strong class="f_r">6월</strong>
+        </div>
+        <div class="calendar_date">
+            <ul>
+                <li class="date_wrap col_1"><span class="day">월</span><span class="date">12</span></li>
+                <li class="date_wrap col_2"><span class="day">화</span><span class="date">13</span></li>
+                <li class="date_wrap col_3"><span class="day">수</span><span class="date">14</span></li>
+                <li class="date_wrap col_4"><span class="day">목</span><span class="date">15</span></li>
+                <li class="date_wrap col_5"><span class="day">금</span><span class="date">16</span></li>
+                <li class="date_wrap col_6"><span class="day">토</span><span class="date">17</span></li>
+                <li class="date_wrap col_7"><span class="day">일</span><span class="date">18</span></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div class="cardview view_1">
+            <h2 class="card_tit">결혼합니다</h2>
+            <div class="card_content">
+                <dl>
+                    <dt>김춘자의 차남</dt>
+                    <dd>조 규 태</dd>
+                </dl>
+                <dl>
+                    <dt>강상인의 차녀</dt>
+                    <dd>부 지 윤</dd>
+                </dl>
+                <img src="/static/images/cavin_jaye.jpg" alt="규태와 지윤" class="img_cavinjaye">
+            </div>
+        </div>
+        <div class="cardview view_2">
+            <h2 class="card_tit">
+                예식
+                <span class="f_r">
+                    2017.06.18. 12:00
+                </span>
+            </h2>
+            <div class="card_content">
+                <span class="location">
+                    <strong>논현동_<em>보네르하우스</em></strong>
+                    <span>서울특별시 강남구 논현동 봉은사로 7길 16</span>
+                </span>
+                <img src="/static/images/map.svg" class="img_location" alt="보네르하우스 오시는 길">
+            </div>
+        </div>
+        <div class="cardview view_3">
+            <h2 class="card_tit">
+                피로연
+                <span class="f_r">
+                    2017.06.10.
+                </span>
+            </h2>
+            <div class="card_content">
+                <span class="location">
+                    <strong>성산읍_<em>아바이순대</em></strong>
+                    <span>제주특별자치도 서귀포시 성산읍 일주동로 4257</span>
+                </span>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="cardview">
+                <img src="/static/images/cavin_jaye.jpg" alt="규태와 지윤">
+            </div>
+            <div class="cardview">
+                <img src="/static/images/cavin_jaye.jpg" alt="규태와 지윤">
+            </div>
+            <div class="cardview">
+                <img src="/static/images/cavin_jaye.jpg" alt="규태와 지윤">
+            </div>
+            <div class="cardview">
+                <img src="/static/images/cavin_jaye.jpg" alt="규태와 지윤">
+            </div>
+            <div class="cardview">
+                <img src="/static/images/cavin_jaye.jpg" alt="규태와 지윤">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(".photos").slick({
+        dots: true
+    })
+
+    window.sr = ScrollReveal();
+
+    sr.reveal('.cardview.view_1', {
+        scale: 1,
+        delay: 100,
+        distance: '50px',
+        duration: 500
+    });
+    sr.reveal('.cardview.view_2', {
+        scale: 1,
+        delay: 250,
+        distance: '50px',
+        duration: 500
+    });
+    sr.reveal('.cardview.view_3', {
+        scale: 1,
+        delay: 250,
+        distance: '50px',
+        duration: 500
+    });
+    sr.reveal('.photos', {
+        scale: 1,
+        delay: 250,
+        distance: '50px',
+        duration: 500
+    });
+
+
+</script>
+
+</body>
+</html>

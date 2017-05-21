@@ -1,0 +1,61 @@
+@charset "utf-8";
+html{height:100%}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+input,select,textarea,button{vertical-align:middle}
+input::-ms-clear{display:none}
+button{border:0 none;background-color:transparent;cursor:pointer}
+body{height:100%;background:#fff}
+body,th,td,input,select,textarea,button{font-size:14px;line-height:1.5;font-family:'맑은 고딕','Malgun Gothic','돋움',dotum,sans-serif;color:#111}
+.non_windows body,.non_windows th,.non_windows td,.non_windows input,.non_windows select,.non_windows textarea,.non_windows button{font-family:Apple SD Gothic Neo,sans-serif}
+a{color:#111;text-decoration:none}
+a:active,a:hover{text-decoration:underline}
+a:active{background-color:transparent}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+#daumIndex{overflow:hidden;position:absolute;left:-9999px;width:0;height:1px;margin:0;padding:0}
+.ir_pm{display:block;overflow:hidden;font-size:0;line-height:0;text-indent:-9999px}
+.ir_wa{display:block;overflow:hidden;position:relative;width:100%;height:100%;z-index:-1}
+.screen_out{overflow:hidden;position:fixed;width:0;height:0;line-height:0;text-indent:-9999px}
+.caption_g{overflow:hidden;width:1px;height:.1px;font-size:0;line-height:0;text-indent:-9999px}
+.f_l{float:left}
+.f_r{float:right}
+.cl_b{clear:both;width:0;height:0;font-size:0;line-height:0}
+.show{display:block}
+.hide{display:none}
+.tbl{border-collapse:collapse;border-spacing:0}
+.clear_g{display:block;overflow:visible;width:auto;clear:both;*zoom:1}
+.clear_g:after{display:block;visibility:hidden;height:0;font-size:0;clear:both;content:''}
+input:disabled{background-color:transparent}
+
+body {background-color:#ededed}
+#header {height:127px;padding:30px 0 20px;background-color:#ea4961;color:#fff;font-weight:lighter;box-shadow:0 1px 6px rgba(0,0,0,0.4)}
+#header .calendar_yearmonth {padding:0 20px;margin-bottom:15px;}
+#header .calendar_yearmonth strong {font-weight:lighter;font-size:28px;}
+#header .calendar_date {position:relative;overflow:hidden;height:80px;}
+#header .calendar_date ul {position:absolute;left:7px;right:7px;height:80px;}
+#header .calendar_date li.date_wrap {width:14.2%;float:left;}
+#header .calendar_date li.date_wrap > span {display:block;text-align:center;font-size:18px;}
+#header .calendar_date li.date_wrap .day {margin-bottom:10px;}
+#header .calendar_date .col_7 {font-weight:normal;}
+#header .calendar_date .col_7 .date {width:32px;height:32px;line-height:34px;margin:-3px auto 0;border-radius:100%;background-color:#fff;color:#d44f62;box-shadow:0 1px 3px rgba(0,0,0,0.3)}
+#container {padding-bottom:5px;}
+.cardview {background-color:#fff;margin:15px;padding:10px 0 0;}
+.cardview.view_1 {height:140px;}
+.cardview.view_3 {height:115px;}
+.cardview h2 {overflow:hidden;padding-bottom:5px;margin:0 12px;border-bottom:1px solid #ebebeb;font-size:16px;font-weight:normal;color:#777}
+.cardview .card_content {position:relative;padding-top:17px;}
+.cardview .card_content dl {overflow:hidden;height:37px;margin:0 12px;}
+.cardview .card_content dt {display:inline-block;height:37px;font-size:18px;margin-right:10px;line-height:37px;vertical-align: middle;color:#555}
+.cardview .card_content dd {display:inline-block;height:37px;font-size:22px;vertical-align: middle;line-height:37px;color:#4c4c4c}
+.cardview .card_content .location {display:block;margin:0 12px;}
+.cardview .card_content .location strong {display:block;height:28px;font-size:22px;font-weight:normal;color:#666;}
+.cardview .card_content .location strong em {font-weight:normal;color:#666}
+.cardview .card_content .location span {display:block;font-size:14px;color:#ada7af}
+.img_location {margin-bottom:-7px}
+.img_cavinjaye {position:absolute;top:14px;right:30px;width:80px;border-radius:100%;}
+
+.photos .cardview {padding:0;margin:0 15px;}
+.photos .cardview img {width:100%;}
